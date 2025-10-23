@@ -21,7 +21,7 @@ By the end of the program, participants will be able to:
 ## Logistics & Expectations
 - **Live sessions (4h)** blend lecture, demos, and hands‑on labs (approx. 40/60 split). Recordings provided.
 - **Pre‑work (1–2h/week)**: short readings/videos + setup tasks to maximize lab time.
-- **Team labs** domain‑agnostic enough for broader reuse.
+- **Team labs** are domain‑agnostic and designed for reuse.
 - **Repo & deliverables**: All slides, lab notebooks, queries, and instructor notes live in this GitHub repo.
 
 ---
@@ -56,7 +56,7 @@ By the end of the program, participants will be able to:
 | **Day 5** *(Optional)* | Treatment Pathway Analysis | For statisticians: pathways design/interpretation |
 | **Day 6** *(Optional)* | Advanced Analytics with HADES | For statisticians: characterization, estimation, prediction |
 
-> **Timebox:** Each live session is 4 hours (with 2 short breaks). See detailed agendas below.
+> **Timebox:** Each live session is 4 hours (with one 10–15 minute break). See detailed agendas below.
 
 ---
 
@@ -69,14 +69,14 @@ By the end of the program, participants will be able to:
 - Navigate OMOP vocab structures (concepts, concept_relationship, domains, standard vs. source).
 
 **Agenda (4h)**
-1. Welcome & orientation to the 6‑week series (5-10m)
-2. Introduction review (put in chat and intructor review (5-10m)
-3. OMOP CDM overview & table tour (30m)
-4. Intro to Standardized Vocabularies (SNOMED, RxNorm, LOINC) (50m)
-5. Break (10m)
-6. Lab 1: “From Source to OMOP” mapping scavenger hunt (60m): *Given commonly used items (e.g., ICD diagnosis code, lab test, medication), locate the OMOP standard concepts & destination tables in Athena.*
-7. Debrief, trainer tips, and intro to homework assignment (10m)
-    
+1. Welcome & orientation to the 6‑week series (10m)
+2. Introduction review (chat + instructor overview) (10m)
+3. OMOP CDM overview & table tour (40m)
+4. Intro to Standardized Vocabularies (SNOMED, RxNorm, LOINC) (60m)
+5. Break (15m)
+6. Lab 1: “From Source to OMOP” mapping scavenger hunt (110m): *Given commonly used items (e.g., ICD diagnosis code, lab test, medication), locate the OMOP standard concepts & destination tables in Athena.*
+7. Debrief, trainer tips, and intro to homework assignment (15m)
+
 **Artifacts**: Slides, Lab 1 worksheet & answer key, quick‑ref “Clarity→OMOP cheat sheet”.
 
 ---
@@ -90,9 +90,9 @@ By the end of the program, participants will be able to:
 **Agenda (4h)**
 1. Concept set design patterns & pitfalls (60m)
 2. Hands‑on vocabulary drills (45m)
-3. Break (10m)
+3. Break (15m)
 4. Intro to **Data Quality Dashboard (DQD)** & **Achilles** (45m)
-5. Lab 2: Build & validate concept sets for a target condition and exposures (60m)
+5. Lab 2: Build & validate concept sets for a target condition and exposures (75m)
 6. Interpreting DQ signals that affect cohort logic (20m)
 
 **Artifacts**: Concept set rubric, Lab 2 concept set bundle (CSV/JSON), DQ quick‑start.
@@ -107,10 +107,10 @@ By the end of the program, participants will be able to:
 
 **Agenda (4h)**
 1. Cohort design primer (index, washout, eras) (45m)
-2. ATLAS demo: building target & comparator cohorts (45m)
-3. Break (10m)
+2. ATLAS demo: building target & comparator cohorts (50m)
+3. Break (15m)
 4. Characterization & result interpretation (40m)
-5. Lab 3: Build a phenotype & run characterization; commit exported JSON to Git (80m)
+5. Lab 3: Build a phenotype & run characterization; commit exported JSON to Git (90m)
 6. Debrief & trainer facilitation tips (20m)
 
 **Artifacts**: Cohort design checklist, Lab 3 instructions, export/versioning guide.
@@ -126,10 +126,10 @@ By the end of the program, participants will be able to:
 **Agenda (4h)**
 1. SEARCH concepts & permissions (30m)
 2. Query patterns (CDM domains, joins, cohort filters) (60m)
-3. Break (10m)
+3. Break (15m)
 4. Export formats & downstream use (40m)
 5. Lab 4: Build an extraction spec for a cohort; run and validate outputs (90m)
-6. Packaging results with provenance (10m)
+6. Packaging results with provenance (25m)
 
 **Artifacts**: Extraction spec template, validation checklist, sample outputs.
 
@@ -144,9 +144,9 @@ By the end of the program, participants will be able to:
 **Agenda (4h)**
 1. Pathways design & assumptions (45m)
 2. Demo: running a treatment pathway workflow (45m)
-3. Break (10m)
-4. Lab 5: Generate pathways for a sample cohort (90m)
-5. Interpreting & presenting findings (50m)
+3. Break (15m)
+4. Lab 5: Generate pathways for a sample cohort (100m)
+5. Interpreting & presenting findings (35m)
 
 **Artifacts**: Pathway parameter guide, presentation template.
 
@@ -161,10 +161,9 @@ By the end of the program, participants will be able to:
 **Agenda (4h)**
 1. HADES overview & setup (40m)
 2. Characterization/Estimation/Prediction walkthroughs (70m)
-3. Break (10m)
-4. Lab 6: Execute a small end‑to‑end analysis with diagnostics (90m)
-5. Results packaging & trainer notes (30m)
+3. Break (15m)
+4. Lab 6: Execute a small end‑to‑end analysis with diagnostics (95m)
+5. Results packaging & trainer notes (20m)
 
 **Artifacts**: Starter study skeleton, diagnostic checklist.
 
----
