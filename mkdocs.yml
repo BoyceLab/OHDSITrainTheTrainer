@@ -19,7 +19,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
   - Personas & Learning Paths: personas.md
   - Curriculum:
       - Curriculum Overview: curriculum-overview.md
