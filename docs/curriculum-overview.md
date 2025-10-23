@@ -1,4 +1,4 @@
-# OHDSI Train-the-Trainer Curriculum (Oncology-Focused)
+# OHDSI Train-the-Trainer Curriculum
 
 ## Overview and Format
 This Train-the-Trainer program is a comprehensive two-day “boot camp” aimed at preparing trainers to teach the OHDSI (Observational Health Data Sciences and Informatics) framework to oncology researchers and clinicians. The curriculum combines live sessions (with recordings) and hands-on team exercises, supported by pre-course readings and asynchronous e-learning tracks. The emphasis is on real-world problem solving and observational epidemiology fundamentals in an oncology context. Trainers will learn not only OHDSI tools and methods, but also how to effectively teach these concepts to others.  

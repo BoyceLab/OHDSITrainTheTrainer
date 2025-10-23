@@ -1,4 +1,4 @@
-# Module 01 · Introduction to OHDSI & OMOP
+# Module 01 · Introduction to OHDSI & OMOP:  Standardized Vocabularies and the CDM
 
 !!! info "Program Context"
     This module is part of the oncology-focused Train-the-Trainer program with integrated modules and persona-specific side exercises for vocabulary experts, statisticians, SQL-oriented data scientists, and clinicians.

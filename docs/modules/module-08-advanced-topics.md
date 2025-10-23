@@ -12,9 +12,13 @@ Advanced SQL, ML/PLP, oncology extension awareness, FHIR interop, NLP/unstructur
 - Know where to find advanced resources
 
 ## Resources
+
 - HADES: <https://ohdsi.github.io/Hades/>
 - PatientLevelPrediction: <https://ohdsi.github.io/PatientLevelPrediction/>
 - Oncology WG: <https://forums.ohdsi.org/tag/oncology>
+
+### Featured Video
+[![Current Practices in Estimation (OHDSI Community Call, Apr 22, 2025)](https://img.youtube.com/vi/FsZ0d1RA9Hc/0.jpg)](https://www.youtube.com/watch?v=FsZ0d1RA9Hc "Current Practices in Estimation (George Hripcsak, Marc Suchard) – OHDSI Community Call, Apr 22, 2025")
 
 ## Demos (optional)
 - Complex SQL (overlaps, windows)
