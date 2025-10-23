@@ -62,22 +62,24 @@ By the end of the program, participants will be able to:
 
 ## Detailed Agendas & Labs
 
-### Day 1 — OMOP CDM & Intro to Standardized Vocabularies
+### Day 1 — Introduction to OHDSI, OMOP CDM & Standardized Vocabularies
 **Learning Objectives**
-- Articulate why OMOP standardization matters for internal and multi‑site analytics.
-- Map common **EHR entities** to OMOP domains (e.g., **Procedures → PROCEDURE_OCCURRENCE**, **Diagnoses → CONDITION_OCCURRENCE**, **Labs → MEASUREMENT**, **Medications → DRUG_EXPOSURE**, **Visits → VISIT_OCCURRENCE/DETAIL**).
-- Navigate OMOP vocab structures (concepts, concept_relationship, domains, standard vs. source).
+- Describe the mission of OHDSI and the design principles of the OMOP CDM.  
+- Explain the importance of standardized vocabularies and how concept hierarchies work.  
+- Navigate Athena and Atlas to build basic concept sets and export concept IDs.  
 
-**Agenda (4h)**
-1. Welcome & orientation to the 6‑week series (10m)
-2. Introduction review (chat + instructor overview) (10m)
-3. OMOP CDM overview & table tour (40m)
-4. Intro to Standardized Vocabularies (SNOMED, RxNorm, LOINC) (60m)
-5. Break (15m)
-6. Lab 1: “From Source to OMOP” mapping scavenger hunt (110m): *Given commonly used items (e.g., ICD diagnosis code, lab test, medication), locate the OMOP standard concepts & destination tables in Athena.*
-7. Debrief, trainer tips, and intro to homework assignment (15m)
+**Agenda (4 hours)**
+1. Welcome & Introductions (15 m)  
+2. Phenotype Library Vignette (15 m)  
+3. OMOP CDM Overview (30 m)  
+4. Tour of Resources (20 m)  
+5. Standardized Vocabularies & Concept Hierarchy (30 m)  
+6. Break (10 m)  
+7. Guided Demonstrations: Athena + Atlas Concept Sets (90 m)  
+8. Debrief & Homework Preview (10 m)  
 
-**Artifacts**: Slides, Lab 1 worksheet & answer key, quick‑ref “Clarity→OMOP cheat sheet”.
+**Artifacts:**  
+Slides, Lab 1 worksheet & answer key, “Clarity→OMOP Mapping Cheat Sheet”, and exported concept set CSV.
 
 ---
 
