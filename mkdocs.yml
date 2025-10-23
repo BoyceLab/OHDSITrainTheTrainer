@@ -19,7 +19,9 @@ theme:
 
 nav:
   - Home: index.md
+  
   - Personas & Learning Paths: personas.md
+  
   - Curriculum:
       - Curriculum Overview: curriculum-overview.md
       - Module 00 · Orientation: modules/module-00-orientation.md
@@ -35,6 +37,7 @@ nav:
       - Module 10 · Capstone: modules/module-10-capstone.md
       - Module 11 · Wrap-Up & Next Steps: modules/module-11-wrap-up.md
       - Module 12 · Refresher: modules/module-12-refresher.md
+    
   - Exercises:
       - Week 2 · Athena Vocabulary Exercise: notebooks/athena_review_exercise.md
       - Week 2–4 · SQL Validation Mini Lab: common_artifacts/sql-validation-mini-lab.md
