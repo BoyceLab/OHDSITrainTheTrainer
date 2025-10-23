@@ -1,15 +1,44 @@
-# OHDSI Train-the-Trainer (Oncology-Focused)
+# OHDSI Train-the-Trainer Program (6-Week Series)
 
-Welcome to the **OHDSI Train-the-Trainer Hub** for oncology. This site hosts the full bootcamp curriculum, asynchronous tracks, hands-on exercises, community office hours, and reusable teaching materials.
+Welcome to the **OHDSI Train-the-Trainer Hub**.  
+This site hosts all materials for the six-week Train-the-Trainer program designed to help **data analysts and engineers** transition from **Epic Clarity** to the **OMOP Common Data Model (CDM)** and the **OHDSI** tool ecosystem.
 
 !!! tip "Format"
-    * Two-day bootcamp (mix of 60–90 min modules)  
-    * Integrated sessions with **persona-specific side exercises**  
-    * Quarterly refreshers (Module 12)  
-    * **Office hours** and **weekly community meetings** for sustained support
+    * Six-week program — **4 hours per week** (one live session each week)  
+    * Mix of lectures, demos, and hands-on labs (approx. 40/60 split)  
+    * Optional extended sessions for statisticians (Days 5–6)  
+    * Quarterly refreshers and community office hours for ongoing learning  
 
-**Personas:** vocabulary/terminology experts, statisticians new to OHDSI, SQL/R-oriented data scientists, and clinicians/residents using **Atlas** for cohort discovery.
+**Audience:** Data analysts, engineers, and trainers working with EHR data who need to understand OMOP CDM and OHDSI tools.  
+**Personas:** analysts, data engineers, statisticians, and clinicians using **ATLAS** or **SEARCH** for data exploration and analytics.  
 
-**Focus:** oncology, observational epidemiology, decision support using OHDSI tools.
+**Focus:**  
+- Understanding and teaching the OMOP Common Data Model  
+- Building and evaluating concept sets and cohorts  
+- Performing data quality checks and extractions  
+- Introducing analytical pipelines with **HADES** (optional)
 
-→ Start with **[Getting Started](getting-started.md)** and **[Personas & Learning Paths](personas.md)**, then proceed through **Curriculum** modules.
+---
+
+## 📘 Program Navigation
+
+| Week | Topic | Modules |
+|------|--------|----------|
+| **Day 0** | Environment Walk-through | [Module 00 – Orientation & Environment](modules/module-00-orientation.md) |
+| **Day 1** | OMOP CDM + Intro to Standardized Vocabularies | [Module 01 – Intro to OHDSI](modules/module-01-intro-ohdsi.md) • [Module 02 – CDM & Vocabularies](modules/module-02-cdm-vocabularies.md) |
+| **Day 2** | Advanced Vocabularies, Concept Sets, Data Quality | [Module 04 – Data Quality](modules/module-04-data-quality.md) |
+| **Day 3** | Cohort Definition & Characterization with ATLAS | [Module 05 – Analytics & Epidemiology](modules/module-05-analytics-epi.md) |
+| **Day 4** | Data Extraction with the SEARCH Tool | [Module 03 – ETL](modules/module-03-etl.md) (SEARCH workflows section) |
+| **Day 5 (Optional)** | Treatment Pathway Analysis | [Module 08 – Advanced Topics](modules/module-08-advanced-topics.md) |
+| **Day 6 (Optional)** | Advanced Analytics with HADES | [Module 09 – Train-the-Trainer](modules/module-09-train-the-trainer.md) (analytics focus) |
+
+---
+
+### 🧭 Continuing Resources
+
+After completing the six-week program:
+- [Module 10 – Capstone Project](modules/module-10-capstone.md): Develop and deliver your own mini-training session.  
+- [Module 11 – Wrap-Up](modules/module-11-wrap-up.md): Review, feedback, and certification.  
+- [Module 12 – Refresher](modules/module-12-refresher.md): Quarterly updates and ongoing community learning.  
+
+→ Start with [**Module 00 – Orientation & Environment**](modules/module-00-orientation.md) to ensure all your tools and systems are configured before Week 1.
