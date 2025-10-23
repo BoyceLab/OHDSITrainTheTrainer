@@ -1,143 +1,170 @@
-# OHDSI Train-the-Trainer Curriculum
+# OHDSI Train‑the‑Trainer Curriculum (6‑Week Program)
 
-## Overview and Format
-This Train-the-Trainer program is a comprehensive two-day “boot camp” aimed at preparing trainers to teach the OHDSI (Observational Health Data Sciences and Informatics) framework to oncology researchers and clinicians. The curriculum combines live sessions (with recordings) and hands-on team exercises, supported by pre-course readings and asynchronous e-learning tracks. The emphasis is on real-world problem solving and observational epidemiology fundamentals in an oncology context. Trainers will learn not only OHDSI tools and methods, but also how to effectively teach these concepts to others.  
-
-Key format features include:
-
-- **Pre-class Preparation**: Participants complete curated pre-readings, watch introductory videos (e.g. an OHDSI overview from leadership), and take short knowledge quizzes before the live sessions.
-- **Two-Day Intensive Boot Camp**: Interactive modules (~60–90 minutes each) combining lectures/demos with team-based exercises that mirror oncology research tasks (e.g. building a breast cancer cohort).
-- **Integrated Multi-Persona Approach**: Sessions are integrated but accommodate different learner personas with examples and optional side exercises:
-  - **Vocabulary Experts**: Focus on terminology mapping using OHDSI tools.
-  - **Statisticians**: Emphasis on study design validity and minimal jargon.
-  - **Data Scientists**: Optional SQL exercises and code-based Atlas outputs.
-  - **Clinicians/Residents**: Fast, outcome-oriented Atlas workflows with minimal technical details.
-- **Observational Epidemiology Thread**: Reinforce study design, bias, confounding, and cohort principles throughout.
-- **Asynchronous Follow-Up**: Access to self-paced modules (e.g. EHDEN Academy) tailored to interests/personas, hosted on a MkDocs site with all materials.
-
-By the end of the program, participants will master OHDSI’s tools and teaching strategies, culminating in a **capstone project** where trainees design and deliver a mock training session.
+> **Audience:** Data analysts/engineers (primarily Epic Clarity users) transitioning to the **OMOP Common Data Model (CDM)** and OHDSI toolchain.  
+> **Format:** 6 weeks • 1 live session per week • **4 hours per session** (+ optional statisticians’ tracks).  
+> **Goal:** Prepare trainers to confidently teach OMOP/OHDSI concepts and workflows, with emphasis on migration from Epic Clarity queries to OMOP‑based analytics.
 
 ---
 
-## Curriculum Modules Overview
-Modules span two days, with oncology-focused examples (e.g. breast/lung cancer cohorts). No formal exams per module; comprehension is tested through exercises and the capstone.
-
-### Module 0: Project Orientation and Onboarding
-- **Format**: Asynchronous pre-work
-- **Content**:
-  - Project background & goals
-  - Roles and responsibilities of trainers (“navigators”)
-  - SOPs, resources, FAQs, contacts
-  - Pre-reading, community orientation, and quiz
-- **Persona considerations**: Equal relevance to all personas; ensures shared baseline.
-
-### Module 1: Introduction to OHDSI and the OMOP Common Data Model
-- **Topics**:
-  - OHDSI background & mission
-  - What is OMOP CDM and why use it
-  - Real-world impact (e.g. multi-center oncology studies)
-  - Overview of training program and resources
-- **Persona considerations**: Different framing for statisticians, vocab experts, data scientists, and clinicians.
-
-### Module 2: OMOP CDM Architecture and Standardized Vocabularies
-- **Topics**:
-  - CDM tables and relationships
-  - Standard vocabularies (SNOMED, LOINC, RxNorm)
-  - Use cases and vocabulary search demonstrations
-  - Hands-on vocabulary exercise (HER2+ breast cancer cohort)
-  - Oncology extension introduction (Episode tables)
-- **Persona considerations**: Tailored engagement for technical vs. clinical learners.
-
-### Module 3: Extract–Transform–Load (ETL) Processes into OMOP
-- **Topics**:
-  - ETL overview and challenges
-  - OHDSI ETL tools (White Rabbit, Rabbit in a Hat, Usagi)
-  - Hands-on mapping exercise with oncology data
-  - Data anomalies and documentation practices
-- **Persona considerations**: Vocabulary experts lead mapping, clinicians gain high-level understanding.
-
-### Module 4: Data Quality and Consistency
-- **Topics**:
-  - Importance of quality checks
-  - Kahn data quality framework
-  - OHDSI tools: Data Quality Dashboard (DQD), Achilles
-  - Common issues and oncology examples
-  - Exercise: triage DQD/Achilles outputs
-- **Persona considerations**: Each persona contributes different perspectives on quality.
-
-### Module 5: Implementing Analytics Using OMOP – From Cohorts to Evidence
-- **Topics**:
-  - Study design primer (characterization, estimation, prediction)
-  - OHDSI tools: Atlas and HADES
-  - Network study workflow
-  - Hands-on cohort building (oncology-focused)
-  - Observational epidemiology concepts
-  - Reproducibility and documentation
-- **Persona considerations**: Exercises emphasize vocabulary, epi, code, or clinical intuition depending on persona.
-
-### Module 6: Data Security, Privacy, and Compliance
-- **Topics**:
-  - Importance of privacy and security
-  - Regulations: HIPAA, GDPR, others
-  - OMOP’s role in de-identification
-  - Governance and sensitive data handling
-  - Exercise: addressing privacy concerns
-- **Persona considerations**: Different emphasis (ethical duty for clinicians, technical safeguards for data scientists, etc.).
-
-### Module 7: Building and Managing an OHDSI Project Team
-- **Topics**:
-  - Key roles (PM, ETL dev, vocabulary specialist, analyst, clinician SME)
-  - Team collaboration practices (GitHub, Slack, Agile basics)
-  - Managing timelines, troubleshooting
-  - Exercise: site project management scenario
-  - Training others and knowledge transfer
-- **Persona considerations**: Builds leadership and communication skills across personas.
-
-### Module 8: Advanced Topics and Emerging Trends
-- **Topics**:
-  - Advanced querying and ML applications
-  - Oncology module deep dive
-  - Interoperability with FHIR/i2b2
-  - Unstructured data and NLP
-  - Genomics, imaging, SDOH, wearables
-  - Future OHDSI developments
-- **Persona considerations**: Showcases possibilities for each learner type.
-
-### Module 9: Train-the-Trainer Skills and Strategies
-- **Topics**:
-  - Adult learning techniques
-  - Curriculum customization
-  - Handling Q&A, mixed audiences, and clinician engagement
-  - Using provided materials
-  - Mentorship and evaluation
-  - Exercise: microteaching
-- **Persona considerations**: Focus on adjusting teaching style.
-
-### Module 10: Capstone Project – Design a Training Session
-- **Assignment**:
-  - Design and deliver a short OHDSI training session
-  - Develop objectives, materials, scenarios, engagement strategies
-  - Present to group and receive feedback
-- **Assessment**: Evaluates content knowledge and teaching effectiveness.
-
-### Module 11: Wrap-Up, Evaluation, and Next Steps
-- **Topics**:
-  - Knowledge recap
-  - Participant feedback
-  - Certification and acknowledgments
-  - Continued learning resources (forums, workgroups, Book of OHDSI, EHDEN Academy)
-  - Community participation
-
-### Module 12: Post-Training Refresher (3-Months Post-Course)
-- **Topics**:
-  - Case discussions and peer learning
-  - Mini-refreshers for common challenges
-  - Updates on new developments
-  - Networking and ongoing community
+## Program Outcomes
+By the end of the program, participants will be able to:
+1. Explain the OMOP CDM and **Standardized Vocabularies**, and translate Epic Clarity data elements to OMOP domains/tables.
+2. Build, evaluate, and share **concept sets** and perform vocabulary navigation at beginner → advanced levels.
+3. Assess **data quality** using OHDSI tools and interpret findings for remediation.
+4. Define and characterize **cohorts** in **ATLAS** and export results reproducibly.
+5. Perform **CDM‑aligned data extraction** using the **SEARCH** tool.
+6. (Optional, statisticians) Execute **treatment pathway** analyses and apply **HADES** workflows for characterization/estimation/prediction.
+7. Teach these topics effectively to mixed audiences (engineers, analysts, clinicians, statisticians).
 
 ---
-!!! note "Reference Texts"
-    - [Book of OHDSI](https://ohdsi.github.io/TheBookOfOhdsi/)  
-    - [OHDSI.org](https://www.ohdsi.org/who-we-are/)  
-    - [Oncology Extension](https://ohdsi.github.io/CommonDataModel/oncology.html)  
-    - [RWD Guide](https://rwd.guide/)  
+
+## Logistics & Expectations
+- **Live sessions (4h)** blend lecture, demos, and hands‑on labs (approx. 40/60 split). Recordings provided.
+- **Pre‑work (1–2h/week)**: short readings/videos + setup tasks to maximize lab time.
+- **Team labs** domain‑agnostic enough for broader reuse.
+- **Repo & deliverables**: All slides, lab notebooks, queries, and instructor notes live in this GitHub repo.
+
+---
+
+## Access & Environment (Day 0)
+**Goal:** Ensure everyone can access required systems and tools ahead of Week 1.
+
+**Systems & Tools Checklist**
+- **ATLAS** (read/write access to training environment)
+- **OMOP CDM** read access to a small training database (synthetic or de‑identified)
+- **SEARCH** tool access (and permissions configured)
+- **R (≥4.2)**, **RStudio** (or Posit Workbench), and ability to install OHDSI packages; optional **Python** if your site uses it
+- **HADES** meta‑package (optional, statisticians’ weeks)
+- **Git & GitHub** (clone/pull/push repo; issues enabled)
+- **SQL client** with read access (e.g., Databricks, DBeaver) for direct CDM inspection
+
+**Day 0 Deliverables**
+- Completed environment checklist (template provided)
+- Test run: connect to CDM; open ATLAS; run a sample SEARCH query
+
+---
+
+## Weekly Schedule (High‑Level)
+
+| Day | Topic | Focus |
+|---|---|---|
+| **Day 0** | Environment Walk‑through | Access, installs, permissions, smoke tests |
+| **Day 1** | OMOP CDM + Intro to Standardized Vocabularies | From Epic Clarity to OMOP domains/tables & basic vocab |
+| **Day 2** | Advanced Vocab, Concept Sets, Intro to Data Quality | Concept set best practices, advanced navigation, DQD/Achilles intro |
+| **Day 3** | Cohort Definition & Characterization with ATLAS | Cohort design, characterization, reproducibility |
+| **Day 4** | Data Extraction with the SEARCH Tool | Cohort‑aware extraction and study packages |
+| **Day 5** *(Optional)* | Treatment Pathway Analysis | For statisticians: pathways design/interpretation |
+| **Day 6** *(Optional)* | Advanced Analytics with HADES | For statisticians: characterization, estimation, prediction |
+
+> **Timebox:** Each live session is 4 hours (with 2 short breaks). See detailed agendas below.
+
+---
+
+## Detailed Agendas & Labs
+
+### Day 1 — OMOP CDM & Intro to Standardized Vocabularies
+**Learning Objectives**
+- Articulate why OMOP standardization matters for internal and multi‑site analytics.
+- Map common **EHR entities** to OMOP domains (e.g., **Procedures → PROCEDURE_OCCURRENCE**, **Diagnoses → CONDITION_OCCURRENCE**, **Labs → MEASUREMENT**, **Medications → DRUG_EXPOSURE**, **Visits → VISIT_OCCURRENCE/DETAIL**).
+- Navigate OMOP vocab structures (concepts, concept_relationship, domains, standard vs. source).
+
+**Agenda (4h)**
+1. Welcome & orientation to the 6‑week series (5-10m)
+2. Introduction review (put in chat and intructor review (5-10m)
+3. OMOP CDM overview & table tour (30m)
+4. Intro to Standardized Vocabularies (SNOMED, RxNorm, LOINC) (50m)
+5. Break (10m)
+6. Lab 1: “From Source to OMOP” mapping scavenger hunt (60m): *Given commonly used items (e.g., ICD diagnosis code, lab test, medication), locate the OMOP standard concepts & destination tables in Athena.*
+7. Debrief, trainer tips, and intro to homework assignment (10m)
+    
+**Artifacts**: Slides, Lab 1 worksheet & answer key, quick‑ref “Clarity→OMOP cheat sheet”.
+
+---
+
+### Day 2 — Advanced Vocabulary, Concept Sets, & Intro to Data Quality
+**Learning Objectives**
+- Build robust **concept sets** (inclusion/exclusion, descendant logic, standard/non‑standard handling).
+- Evaluate concept set coverage and drift; document intent for reusability.
+- Recognize data quality dimensions (conformance, completeness, plausibility) and the role of vocabularies in DQ.
+
+**Agenda (4h)**
+1. Concept set design patterns & pitfalls (60m)
+2. Hands‑on vocabulary drills (45m)
+3. Break (10m)
+4. Intro to **Data Quality Dashboard (DQD)** & **Achilles** (45m)
+5. Lab 2: Build & validate concept sets for a target condition and exposures (60m)
+6. Interpreting DQ signals that affect cohort logic (20m)
+
+**Artifacts**: Concept set rubric, Lab 2 concept set bundle (CSV/JSON), DQ quick‑start.
+
+---
+
+### Day 3 — Cohort Definition & Characterization with ATLAS
+**Learning Objectives**
+- Translate clinical intent into cohort entry/exit logic and inclusion rules.
+- Use **ATLAS** to define cohorts and run **characterization**.
+- Export and version cohort definitions for reuse in the repo.
+
+**Agenda (4h)**
+1. Cohort design primer (index, washout, eras) (45m)
+2. ATLAS demo: building target & comparator cohorts (45m)
+3. Break (10m)
+4. Characterization & result interpretation (40m)
+5. Lab 3: Build a phenotype & run characterization; commit exported JSON to Git (80m)
+6. Debrief & trainer facilitation tips (20m)
+
+**Artifacts**: Cohort design checklist, Lab 3 instructions, export/versioning guide.
+
+---
+
+### Day 4 — Data Extraction with the SEARCH Tool
+**Learning Objectives**
+- Perform **cohort‑aligned extractions** using the SEARCH tool.
+- Parameterize pulls for counts, person‑level datasets, and time‑bounded windows.
+- Ensure extracts are reproducible and accompanied by cohort/concept definitions.
+
+**Agenda (4h)**
+1. SEARCH concepts & permissions (30m)
+2. Query patterns (CDM domains, joins, cohort filters) (60m)
+3. Break (10m)
+4. Export formats & downstream use (40m)
+5. Lab 4: Build an extraction spec for a cohort; run and validate outputs (90m)
+6. Packaging results with provenance (10m)
+
+**Artifacts**: Extraction spec template, validation checklist, sample outputs.
+
+---
+
+### Day 5 *(Optional, Statisticians)* — Treatment Pathway Analysis
+**Learning Objectives**
+- Understand pathway cohort construction and sequencing rules.
+- Run pathway analyses and interpret visualizations.
+- Communicate caveats (data quality, censoring, competing risks) to non‑statistical audiences.
+
+**Agenda (4h)**
+1. Pathways design & assumptions (45m)
+2. Demo: running a treatment pathway workflow (45m)
+3. Break (10m)
+4. Lab 5: Generate pathways for a sample cohort (90m)
+5. Interpreting & presenting findings (50m)
+
+**Artifacts**: Pathway parameter guide, presentation template.
+
+---
+
+### Day 6 *(Optional, Statisticians)* — Advanced Analytics with HADES
+**Learning Objectives**
+- Set up **HADES** and run characterization/estimation/prediction pipelines.
+- Explain confounding control, design diagnostics, and reproducibility to trainees.
+- Package study artifacts for peer review/network studies.
+
+**Agenda (4h)**
+1. HADES overview & setup (40m)
+2. Characterization/Estimation/Prediction walkthroughs (70m)
+3. Break (10m)
+4. Lab 6: Execute a small end‑to‑end analysis with diagnostics (90m)
+5. Results packaging & trainer notes (30m)
+
+**Artifacts**: Starter study skeleton, diagnostic checklist.
+
+---
