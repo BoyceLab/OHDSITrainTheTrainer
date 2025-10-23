@@ -22,7 +22,7 @@ nav:
   - Getting Started: getting-started.md
   - Personas & Learning Paths: personas.md
   - Curriculum:
-      - Curriculum Overview: curriculum-overview.md    # ← add this line
+      - Curriculum Overview: curriculum-overview.md
       - Module 00 · Orientation: modules/module-00-orientation.md
       - Module 01 · Intro to OHDSI/OMOP: modules/module-01-intro-ohdsi.md
       - Module 02 · CDM & Vocabularies: modules/module-02-cdm-vocabularies.md
@@ -36,13 +36,19 @@ nav:
       - Module 10 · Capstone: modules/module-10-capstone.md
       - Module 11 · Wrap-Up & Next Steps: modules/module-11-wrap-up.md
       - Module 12 · Refresher: modules/module-12-refresher.md
+  - Exercises:
+      # Add your markdown-based exercises here (no .ipynb required)
+      - Week 1 · Environment Checklist Walkthrough: notebooks/week1_environment.md
+      - Week 2 · Athena Vocabulary Exercise: notebooks/week2/athena_vocabulary_exercise.md
+      # Examples for upcoming weeks (safe placeholders to fill later)
+      - Week 3 · Cohort Design Notes: notebooks/week3_cohort_design.md
+      - Week 4 · SEARCH Extraction Notes: notebooks/week4_search_extraction.md
   - Syllabus: syllabus.md
   - Community & Support:
       - Office Hours: community/office-hours.md
       - Weekly Community Meeting: community/weekly-meeting.md
       - Living FAQ: community/faq.md
   - Resources: resources.md
-
 
 markdown_extensions:
   - meta
@@ -68,6 +74,8 @@ markdown_extensions:
 
 plugins:
   - search
+  # If you previously used mkdocs-jupyter for .ipynb, you can remove it now
+  # - mkdocs-jupyter
 
 extra:
   generator: false
