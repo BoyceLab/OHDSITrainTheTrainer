@@ -1,0 +1,39 @@
+name: Generate MkDocs placeholders
+
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - 'docs/**/*.md'
+      - 'tools/mkdocs_placeholders.py'
+
+permissions:
+  contents: write   # allow the workflow to commit back
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install Pillow
+        run: pip install Pillow
+
+      - name: Generate placeholders (scan all docs, inject links)
+        run: python tools/mkdocs_placeholders.py docs --inject
+
+      - name: Commit changes (images + injected links)
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-generate placeholder images for figures"
+          file_pattern: |
+            docs/**/*.md
+            docs/images/*.png
