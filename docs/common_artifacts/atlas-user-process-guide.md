@@ -416,20 +416,42 @@ Try switching web browsers. Google Chrome is the recommended browser for Atlas.
 
 ## OHDSI Video Tutorials
 
-OHDSI has provided extensive video tutorials demonstrating features and functions of Atlas.
-
-- Using Data Sources: Dashboard  
-- Using Search  
-- Using Concept Sets  
-- Using Cohort Definitions  
-- Using Characterizations  
-- Using Cohort Pathways  
-- Using Incidence Rates  
-- Using Profiles  
-- Using Estimation  
-- Using Prediction
+Explore the complete **[OHDSI Atlas Tutorials Playlist](https://www.youtube.com/playlist?list=PLpzbqK7kvfeUXjgnpNMFoff3PDOwv61lZ)** on YouTube.
 
 ---
+
+### 📊 Using Data Sources
+[![Using Data Sources](https://img.youtube.com/vi/Cueuvq0-xXc/0.jpg)](https://youtu.be/Cueuvq0-xXc)
+
+### 🔍 Using Search
+[![Using Search](https://img.youtube.com/vi/NI8urevLuqY/0.jpg)](https://www.youtube.com/watch?v=NI8urevLuqY)
+
+### 🧩 Using Concept Sets
+[![Using Concept Sets](https://img.youtube.com/vi/mfjxNwn3KkM/0.jpg)](https://youtu.be/mfjxNwn3KkM)
+
+### 👥 Using Cohort Definitions
+[![Using Cohort Definitions](https://img.youtube.com/vi/JQFGedOaNiw/0.jpg)](https://youtu.be/JQFGedOaNiw)
+
+### 📈 Using Characterizations
+[![Using Characterizations](https://img.youtube.com/vi/FU8DqF1mcDQ/0.jpg)](https://youtu.be/FU8DqF1mcDQ)
+
+### 🔄 Using Cohort Pathways
+[![Using Cohort Pathways](https://img.youtube.com/vi/rdniIztguys/0.jpg)](https://youtu.be/rdniIztguys)
+
+### 📉 Using Incidence Rates
+[![Using Incidence Rates](https://img.youtube.com/vi/sl1tkcNT17U/0.jpg)](https://youtu.be/sl1tkcNT17U)
+
+### 👤 Using Profiles
+[![Using Profiles](https://img.youtube.com/vi/_vSQQDBhXVg/0.jpg)](https://youtu.be/_vSQQDBhXVg)
+
+### 📊 Using Estimation
+[![Using Estimation](https://img.youtube.com/vi/YYxp3CDD-PE/0.jpg)](https://www.youtube.com/watch?v=YYxp3CDD-PE)
+
+### 🤖 Using Prediction
+[![Using Prediction](https://img.youtube.com/vi/qiTXEkLt7qs/0.jpg)](https://www.youtube.com/watch?v=qiTXEkLt7qs&list=PLpzbqK7kvfeUXjgnpNMFoff3PDOwv61lZ&index=19)
+
+---
+
 
 ## Additional Resources
 
