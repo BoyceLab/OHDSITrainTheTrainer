@@ -38,6 +38,8 @@ nav:
       - Module 12 · Refresher: modules/module-12-refresher.md
 
   - Exercises:
+      - Week 1 · Athena Vocabulary Exercise: notebooks/athena_review_exercise.md
+      - Week 2 · Atlas Review Exercise: notebooks/atlas_review_exercise.md
       - Week 2–4 · SQL Validation Mini Lab: common_artifacts/sql-validation-mini-lab.md
 
   - Resources:
@@ -45,6 +47,7 @@ nav:
       - SQL Resources:
           - OMOP SQL Examples: common_artifacts/omop-sql-examples.md
           - Trainer Commentary (SQL Examples): instructor_notes/omop-sql-examples-trainer.md
+      - ATLAS User Process Guide: common_artifacts/atlas-user-process-guide.md
 
   - Community & Support:
       - Office Hours: community/office-hours.md
