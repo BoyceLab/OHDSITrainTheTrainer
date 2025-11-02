@@ -1,19 +1,18 @@
 # OHDSI Train-the-Trainer Program (6-Week Series)
 
 Welcome to the **OHDSI Train-the-Trainer Hub**.  
-This site hosts all materials for the six-week Train-the-Trainer program designed to help **data analysts and engineers** transition from **Epic Clarity** to the **OMOP Common Data Model (CDM)** and the **OHDSI** tool ecosystem.
+This site hosts all materials for the six-week Train-the-Trainer program designed to help **data analysts and engineers** transition from **common electronic health record formats** to the **OMOP Common Data Model (CDM)** and the **OHDSI** tool ecosystem.
 
 !!! tip "Format"
     * Six-week program — **4 hours per week** (one live session each week)  
-    * Mix of lectures, demos, and hands-on labs (approx. 40/60 split)  
+    * Mix of lectures, demos, and hands-on labs  
     * Optional extended sessions for statisticians (Days 5–6)  
     * Quarterly refreshers and community office hours for ongoing learning  
 
-**Audience:** Data analysts, engineers, and trainers working with EHR data who need to understand OMOP CDM and OHDSI tools.  
-**Personas:** analysts, data engineers, statisticians, and clinicians using **ATLAS** or **SEARCH** for data exploration and analytics.  
+**Audience:** Data analysts, engineers, clinicians, and trainers working with EHR data who need to understand OMOP CDM and OHDSI tools, especially those using **ATLAS** or **SEARCH** for data exploration and analytics.  
 
 **Focus:**  
-- Understanding and teaching the OMOP Common Data Model  
+- Understanding and teaching the OMOP Common Data Model and standardized vocabularies 
 - Building and evaluating concept sets and cohorts  
 - Performing data quality checks and extractions  
 - Introducing analytical pipelines with **HADES** (optional)
