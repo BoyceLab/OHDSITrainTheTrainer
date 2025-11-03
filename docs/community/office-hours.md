@@ -1,4 +1,4 @@
-# Office Hours (Ad Hoc)
+# Office Hours
 
 **Purpose:** Just-in-time support for self-service OHDSI/Atlas users.
 
